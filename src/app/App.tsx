@@ -193,7 +193,7 @@ const DashboardPage = () => (
                 data={PIE_DATA}
                 cx="50%"
                 cy="50%"
-                innerRadius={60}
+                innerRadius={100}
                 outerRadius={80}
                 paddingAngle={5}
                 dataKey="value"
