@@ -1290,11 +1290,8 @@ export default function App() {
       {/* Sidebar */}
       <aside className="w-[280px] bg-white border-r border-[#E7E7E7] flex flex-col fixed inset-y-0 left-0 z-50">
         <div className="p-8 pb-4">
-          <div className="flex items-center gap-2 mb-8">
-            <div className="size-8 bg-[#239D99] rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">P</span>
-            </div>
-            <span className="text-[20px] font-bold text-[#239D99] tracking-tight">POWEREDPLANS</span>
+          <div className="flex items-center mb-8">
+            <img src={new URL("../assets/logo.svg", import.meta.url).href} alt="PoweredPlans Logo" className="h-8 w-auto" />
           </div>
           
           <nav className="space-y-1">
